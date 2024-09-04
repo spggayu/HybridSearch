@@ -4,7 +4,7 @@ import json
 
 class TestHybridSearchAPI(unittest.TestCase):
     
-    BASE_URL = 'https://ubiquitous-carnival-q7v7696rwwq5f46pw-6543.app.github.dev/search'  # Adjust this URL based on your setup
+    BASE_URL = 'https://ubiquitous-carnival-q7v7696rwwq5f46pw-6543.app.github.dev/search'  
 
     def test_search_with_query(self):
         payload = {
